@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\priya\\CSharp\\Assignment\\Assignment4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|c:\\priya\\csharp\\assignment\\assignment4\\assignment4\\question5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\question5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Assignment4||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|c:\\priya\\csharp\\assignment\\assignment4\\assignment4\\question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\question4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|c:\\priya\\csharp\\assignment\\assignment4\\assignment4\\question3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\question3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|c:\\priya\\csharp\\assignment\\assignment4\\assignment4\\scholarship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\scholarship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|c:\\priya\\csharp\\assignment\\assignment4\\assignment4\\banking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|solutionrelative:assignment4\\banking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC176B0F-0FCD-4561-8B92-2B140BF07D88}|Assignment4\\Assignment4.csproj|c:\\priya\\csharp\\assignment\\assignment4\\assignment4\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Question5.cs",
+              "DocumentMoniker": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Question5.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Question5.cs",
+              "ToolTip": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Question5.cs",
+              "RelativeToolTip": "Assignment4\\Question5.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:08:47.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Question4.cs",
+              "DocumentMoniker": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Question4.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Question4.cs",
+              "ToolTip": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Question4.cs",
+              "RelativeToolTip": "Assignment4\\Question4.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAA3wEAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:58:46.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Question3.cs",
+              "DocumentMoniker": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Question3.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Question3.cs",
+              "ToolTip": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Question3.cs",
+              "RelativeToolTip": "Assignment4\\Question3.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAwA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:52:13.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Assignment4",
+              "DocumentMoniker": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Assignment4.csproj",
+              "RelativeDocumentMoniker": "Assignment4\\Assignment4.csproj",
+              "ToolTip": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Assignment4.csproj",
+              "RelativeToolTip": "Assignment4\\Assignment4.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-10T15:41:27.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Scholarship.cs",
+              "DocumentMoniker": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Scholarship.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Scholarship.cs",
+              "ToolTip": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Scholarship.cs",
+              "RelativeToolTip": "Assignment4\\Scholarship.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:34:02.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Banking.cs",
+              "DocumentMoniker": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Banking.cs",
+              "RelativeDocumentMoniker": "Assignment4\\Banking.cs",
+              "ToolTip": "C:\\priya\\CSharp\\Assignment\\Assignment4\\Assignment4\\Banking.cs",
+              "RelativeToolTip": "Assignment4\\Banking.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwEcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:53:29.901Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
