@@ -1,0 +1,7 @@
+C:\priya\DotNet training\SQL\Assessment\Assessment3\Assessment3\bin\Debug\Assessment3.exe.config
+C:\priya\DotNet training\SQL\Assessment\Assessment3\Assessment3\bin\Debug\Assessment3.exe
+C:\priya\DotNet training\SQL\Assessment\Assessment3\Assessment3\bin\Debug\Assessment3.pdb
+C:\priya\DotNet training\SQL\Assessment\Assessment3\Assessment3\obj\Debug\Assessment3.csproj.AssemblyReference.cache
+C:\priya\DotNet training\SQL\Assessment\Assessment3\Assessment3\obj\Debug\Assessment3.csproj.CoreCompileInputs.cache
+C:\priya\DotNet training\SQL\Assessment\Assessment3\Assessment3\obj\Debug\Assessment3.exe
+C:\priya\DotNet training\SQL\Assessment\Assessment3\Assessment3\obj\Debug\Assessment3.pdb
