@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\priya\\DotNet training\\SQL\\Assessment\\Assessment3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\priya\\DotNet training\\ADO\\Assessment1\\Assessment1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D2F14BDE-427F-4E74-A64E-92E8E08BF688}|Assessment3\\Assessment3.csproj|c:\\priya\\dotnet training\\sql\\assessment\\assessment3\\assessment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D2F14BDE-427F-4E74-A64E-92E8E08BF688}|Assessment3\\Assessment3.csproj|solutionrelative:assessment3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -20,11 +23,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\priya\\DotNet training\\ADO\\Assessment1\\Assessment1\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\ADO\\Assessment1\\Assessment1\\Program.cs",
+              "ToolTip": "C:\\priya\\DotNet training\\ADO\\Assessment1\\Assessment1\\Program.cs",
+              "RelativeToolTip": "..\\..\\..\\ADO\\Assessment1\\Assessment1\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T10:46:55.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\priya\\DotNet training\\SQL\\Assessment\\Assessment3\\Assessment3\\Program.cs",
               "RelativeDocumentMoniker": "Assessment3\\Program.cs",
               "ToolTip": "C:\\priya\\DotNet training\\SQL\\Assessment\\Assessment3\\Assessment3\\Program.cs",
               "RelativeToolTip": "Assessment3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAADwvygAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T05:35:10.104Z",
               "EditorCaption": ""

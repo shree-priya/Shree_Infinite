@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Button </title>
+</head>
+<body>
+    
+    <script>
+        document.body.innerHTML += '<button id="Button">Click</button>';
+        document.body.innerHTML += '<p id="msg"></p>';
+        document.getElementById('Button').addEventListener('click', function () {
+            document.getElementById('msg').textContent = 'Button clicked ';
+        });
+    </script>
+</body>
+</html>
