@@ -24,7 +24,8 @@ CREATE TABLE Trains (
     FirstClassTicketPrice DECIMAL(18, 2) NOT NULL,
     SecondClassTicketPrice DECIMAL(18, 2) NOT NULL,
     SleeperTicketPrice DECIMAL(18, 2) NOT NULL,
-    IsActive BIT NOT NULL DEFAULT 1
+    IsActive BIT NOT NULL DEFAULT 1,
+	journeyTime TIME
 );
 
 CREATE TABLE Bookings (
