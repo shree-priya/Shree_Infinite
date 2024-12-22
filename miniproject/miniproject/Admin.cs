@@ -130,7 +130,7 @@ namespace TrainReservationSystem.Services
                         SecondClassTicketPrice = secondClassTicketPrice,
                         SleeperTicketPrice = sleeperTicketPrice,
                         IsActive = isActive,
-                        JourneyTime = journeyTime // Add JourneyTime parameter
+                        JourneyTime = journeyTime 
                     });
 
                     Console.WriteLine("Train added successfully.");

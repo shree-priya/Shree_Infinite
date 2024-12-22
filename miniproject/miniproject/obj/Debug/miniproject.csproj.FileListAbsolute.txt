@@ -5,3 +5,10 @@ C:\priya\miniproject\miniproject\obj\Debug\miniproject.csproj.CoreCompileInputs.
 C:\priya\miniproject\miniproject\obj\Debug\miniproject.exe
 C:\priya\miniproject\miniproject\obj\Debug\miniproject.pdb
 C:\priya\miniproject\miniproject\obj\Debug\miniproject.csproj.AssemblyReference.cache
+C:\priya\DotNet training\miniproject\miniproject\bin\Debug\miniproject.exe.config
+C:\priya\DotNet training\miniproject\miniproject\bin\Debug\miniproject.exe
+C:\priya\DotNet training\miniproject\miniproject\bin\Debug\miniproject.pdb
+C:\priya\DotNet training\miniproject\miniproject\obj\Debug\miniproject.csproj.AssemblyReference.cache
+C:\priya\DotNet training\miniproject\miniproject\obj\Debug\miniproject.csproj.CoreCompileInputs.cache
+C:\priya\DotNet training\miniproject\miniproject\obj\Debug\miniproject.exe
+C:\priya\DotNet training\miniproject\miniproject\obj\Debug\miniproject.pdb

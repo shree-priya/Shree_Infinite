@@ -212,7 +212,7 @@ namespace TrainReservationSystem
                 {
                     Console.Write("Enter booking ID to cancel: ");
                     var bookingId = int.Parse(Console.ReadLine());
-
+                    
                     try
                     {
                         cancellationService.CancelBooking(bookingId);
@@ -223,6 +223,7 @@ namespace TrainReservationSystem
                             coachService.UpdateAvailableSeats(coach.CoachId, coach.AvailableSeats + 1);
                         }
                         Console.WriteLine("Ticket canceled successfully.");
+                       
                     }
                     catch (Exception ex)
                     {

@@ -30,7 +30,7 @@ namespace TrainReservationSystem.Services
                 {
                     connection.Open();
 
-                    // Retrieve the fixed journey time from the Trains table
+                   
                     var command = new SqlCommand("SELECT JourneyTime FROM Trains WHERE TrainNumber = @TrainNumber", connection);
                     command.Parameters.AddWithValue("@TrainNumber", booking.TrainNumber);
 
@@ -47,10 +47,10 @@ namespace TrainReservationSystem.Services
                         }
                     }
 
-                    // Combine user-provided journey date with journey time to set the complete journey date and time
+                   
                     DateTime completeJourneyDate = booking.JourneyDate.Date + journeyTime;
 
-                    // Insert the booking with the combined journey date and time
+             
                     command = new SqlCommand(@"
                 INSERT INTO Bookings (UserId, TrainNumber, CoachId, PassengerName, PassengerAge, BookingDate, JourneyDate)
                 VALUES (@UserId, @TrainNumber, @CoachId, @PassengerName, @PassengerAge, @BookingDate, @JourneyDate)", connection);
@@ -60,26 +60,26 @@ namespace TrainReservationSystem.Services
                     command.Parameters.AddWithValue("@CoachId", booking.CoachId);
                     command.Parameters.AddWithValue("@PassengerName", booking.PassengerName);
                     command.Parameters.AddWithValue("@PassengerAge", booking.PassengerAge);
-                    command.Parameters.AddWithValue("@BookingDate", booking.BookingDate.ToUniversalTime()); // Convert to UTC
-                    command.Parameters.AddWithValue("@JourneyDate", completeJourneyDate); // Convert to UTC
-                    //command.Parameters.AddWithValue("@JourneyTime", journeyTime);
+                    command.Parameters.AddWithValue("@BookingDate", booking.BookingDate.ToUniversalTime());
+                    command.Parameters.AddWithValue("@JourneyDate", completeJourneyDate); 
+                    
 
                     command.ExecuteNonQuery();
                 }
             }
             catch (InvalidJourneyDateException ex)
             {
-                // Handle invalid journey date error
+                
                 Console.WriteLine($"Invalid entry: {ex.Message}. Please ensure the journey date is in the future.");
             }
             catch (SqlException ex)
             {
-                // Handle SQL errors
+                
                 Console.WriteLine($"SQL error: {ex.Message}. Please contact support if the issue persists.");
             }
             catch (Exception ex)
             {
-                // Handle general errors
+                
                 Console.WriteLine($"An unexpected error occurred: {ex.Message}. Please try again later.");
             }
         }

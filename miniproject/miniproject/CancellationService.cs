@@ -28,7 +28,7 @@ namespace TrainReservationSystem.Services
                 throw new InvalidOperationException("Cannot cancel a past booking.");
             }
 
-            var refundAmount = CalculateRefund(booking.BookingDate, booking.JourneyDate);
+            var RefundPercentage = CalculateRefund(booking.BookingDate, booking.JourneyDate);
 
             try
             {
@@ -37,10 +37,10 @@ namespace TrainReservationSystem.Services
                     connection.Open();
 
 
-                    var cancellationCommand = new SqlCommand("INSERT INTO Cancellations (BookingId, CancellationDate, RefundAmount) VALUES (@BookingId, @CancellationDate, @RefundAmount)", connection);
+                    var cancellationCommand = new SqlCommand("INSERT INTO Cancellations (BookingId, CancellationDate, RefundPercentage) VALUES (@BookingId, @CancellationDate, @RefundPercentage)", connection);
                     cancellationCommand.Parameters.AddWithValue("@BookingId", bookingId);
                     cancellationCommand.Parameters.AddWithValue("@CancellationDate", DateTime.Now);
-                    cancellationCommand.Parameters.AddWithValue("@RefundAmount", refundAmount);
+                    cancellationCommand.Parameters.AddWithValue("@RefundPercentage", RefundPercentage);
 
                     cancellationCommand.ExecuteNonQuery();
                     
@@ -54,13 +54,13 @@ namespace TrainReservationSystem.Services
             }
             catch (SqlException ex)
             {
-                // Log SQL-specific errors
+                
                 Console.WriteLine($"SQL Error: {ex.Message}");
                 throw;
             }
             catch (Exception ex)
             {
-                // Log general errors
+                
                 Console.WriteLine($"Error: {ex.Message}");
                 throw;
             }
